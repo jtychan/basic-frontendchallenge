@@ -13,6 +13,7 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: darkgoldenrod;
   margin: 100px;
+
 }
 
 .email-address{
@@ -25,7 +26,7 @@
   padding-right: 150px;
   margin-top: 10px;
   margin-left: 100px;
-  background: black;
+  background: rgb(26, 25, 31);
 }
 .password {
   border: darkgoldenrod;
@@ -36,7 +37,7 @@
   padding-right: 150px;
   margin-top: 10px;
   margin-left: 100px;
-  background: black;
+  background: rgb(26, 25, 31);
   
 }
 
@@ -61,3 +62,123 @@
 .adjust{
   padding-right: 100px;
 }
+
+.triangle1 {
+  position: relative; left: 920px; top: -230px;
+  background-color: orange;
+  text-align: left;
+}
+.triangle1:before,
+.triangle1:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.triangle1,
+.triangle1:before,
+.triangle1:after {
+  width:  5em;
+  height: 5em;
+  border-top-right-radius: 30%;
+}
+.triangle1 {
+  transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle1:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle1:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+
+.triangle2 {
+  position: relative; left: 900px; top:-190px;
+  background-color: orange;
+  text-align: left;
+}
+.triangle2:before,
+.triangle2:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.triangle2,
+.triangle2:before,
+.triangle2:after {
+  width:  5em;
+  height: 5em;
+  border-top-right-radius: 30%;
+}
+.triangle2 {
+  transform: rotate(-120deg) skewX(-30deg) scale(1,.866);
+}
+.triangle2:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle2:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.triangle3 {
+  position: relative; bottom: 240px; left: 102S0px;
+  background-color: orange;
+  text-align: left;
+}
+.triangle3:before,
+.triangle3:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+.triangle3,
+.triangle3:before,
+.triangle3:after {
+  width:  5em;
+  height: 5em;
+  border-top-right-radius: 30%;
+}
+.triangle3 {
+  transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle3:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle3:after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.triangle4 {
+    position: relative; bottom: 320px ; left: 820px;
+    background-color: orange;
+    text-align: left;
+  }
+.triangle4:before,
+.triangle4:after {
+    content: '';
+    position: absolute;
+    background-color: inherit;
+  }
+.triangle4,
+.triangle4:before,
+.triangle4:after {
+    width:  5em;
+    height: 5em;
+    border-top-right-radius: 30%;
+  }
+.triangle4 {
+    transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+  }
+.triangle4:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+  }
+.triangle4:after {
+    transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+  }
+  
+  
+  
+  
