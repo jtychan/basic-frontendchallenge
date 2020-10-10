@@ -1,23 +1,65 @@
-.App{
-  min-height: 100vh;
-  background-color: rgb(26, 25, 31);
+.mr-auto{
+  position: relative; left: 150px;
+  font-family: Work 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
 }
 
+.container-2{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  position: relative; bottom: 75vh; right: 50vh;
+}
+
+.container-1{ 
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  position: relative; right: 600px;
+
+}
+
+.App{
+  background-color:rgb(22, 27, 33);
+}
+
+
 .front{
-  color: darkgoldenrod;
-  padding-top: 15px;
-  text-indent: 30px;
+  color: rgb(244, 169, 80);
+  position: relative; bottom: -20px; left: -230px;
+  font-size: 28.44px;
+}
+
+.About{
+  padding-left: 100px;
+}
+
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
 }
 
 .log-in{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: darkgoldenrod;
+  color: rgb(244, 169, 80);
   margin: 100px;
+  flex: 1;
+  position: relative; bottom: 80px; right: 50px;
 
 }
 
 .email-address{
-  border: darkgoldenrod;
+  border: rgb(244, 169, 80);
   border-radius: 5px;
   border-spacing: 20px;
   border-style: solid ;
@@ -26,10 +68,12 @@
   padding-right: 150px;
   margin-top: 10px;
   margin-left: 100px;
-  background: rgb(26, 25, 31);
+  background-color: rgb(22, 27, 33);
+  flex: 1;
+  position: relative; bottom: 160px; right: 50px;
 }
 .password {
-  border: darkgoldenrod;
+  border: rgb(244, 169, 80);
   border-radius: 5px;
   border-style: solid ;
   block-size: 30px;
@@ -37,36 +81,69 @@
   padding-right: 150px;
   margin-top: 10px;
   margin-left: 100px;
-  background: rgb(26, 25, 31);
+  background-color: rgb(22, 27, 33);
+  flex: 1;
+  position: relative; bottom: 160px; right: 50px;
   
 }
 
 ::placeholder{
-  color:darkgoldenrod;
+  color:rgb(244, 169, 80);
   font-size: 10px;
   padding-left: 5px;
 }
    
-.search-button{
-  background-color: darkgoldenrod;
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 145px;
-  border-color: darkgoldenrod;
-  margin-top: 10px;
-  margin-left: 100px;
-  font-size: 6px;
-  font-weight: 800;
+.nav-link {
+  color: #F4A950!important;
+  }
+
+.navbar-brand{
+  color: #F4A950 !important
 }
 
+.navbar-toogle{
+  color: #F4A950 !important
+}
+
+.navbar-toogler{
+  background-color: #F4A950 !important
+}
+.navbar-collapse{
+  color: #F4A950 !important
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #F4A950 !important;
+  border-color: #F4A950 !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  padding: 10px 155px !important;
+  margin-top: 10px !important;
+  margin-left: 100px !important;
+  font-size: 6px !important;
+  font-weight: 800 !important;
+  flex: 1 !important;
+  color: black !important;
+  position: relative;bottom: 160px; right: 50px;
+}
+
+
+.row{
+  padding-top: 100px;
+}
 .adjust{
   padding-right: 100px;
+  flex: 1;
 }
 
+.Navbar{
+  justify-content: center;
+}
 .triangle1 {
-  position: relative; left: 920px; top: -230px;
-  background-color: orange;
+  position: relative; left: 180px;  bottom: 50px;
+  background-color: rgb(244, 169, 80);
   text-align: left;
+ 
 }
 .triangle1:before,
 .triangle1:after {
@@ -77,8 +154,8 @@
 .triangle1,
 .triangle1:before,
 .triangle1:after {
-  width:  5em;
-  height: 5em;
+  width:  4.5em;
+  height: 4.5em;
   border-top-right-radius: 30%;
 }
 .triangle1 {
@@ -94,9 +171,10 @@
 
 
 .triangle2 {
-  position: relative; left: 900px; top:-190px;
-  background-color: orange;
+  position: relative;left: 163px; bottom: 10px;
+  background-color: rgb(244, 169, 80);
   text-align: left;
+  flex: 1;
 }
 .triangle2:before,
 .triangle2:after {
@@ -107,8 +185,8 @@
 .triangle2,
 .triangle2:before,
 .triangle2:after {
-  width:  5em;
-  height: 5em;
+  width:  4.5em;
+  height: 4.5em;
   border-top-right-radius: 30%;
 }
 .triangle2 {
@@ -123,9 +201,10 @@
 
 
 .triangle3 {
-  position: relative; bottom: 240px; left: 102S0px;
-  background-color: orange;
+  position: relative;bottom: 35px; left: 96px;
+  background-color: rgb(244, 169, 80);
   text-align: left;
+  flex: 1;
 }
 .triangle3:before,
 .triangle3:after {
@@ -136,8 +215,8 @@
 .triangle3,
 .triangle3:before,
 .triangle3:after {
-  width:  5em;
-  height: 5em;
+  width:  4.5em;
+  height: 4.5em;
   border-top-right-radius: 30%;
 }
 .triangle3 {
@@ -152,9 +231,10 @@
 
 
 .triangle4 {
-    position: relative; bottom: 320px ; left: 820px;
-    background-color: orange;
+    position: relative; bottom: 108px; left: 272px;
+    background-color:  rgb(244, 169, 80);
     text-align: left;
+    flex: 1;
   }
 .triangle4:before,
 .triangle4:after {
@@ -165,8 +245,8 @@
 .triangle4,
 .triangle4:before,
 .triangle4:after {
-    width:  5em;
-    height: 5em;
+    width:  4.5em;
+    height: 4.5em;
     border-top-right-radius: 30%;
   }
 .triangle4 {
@@ -179,6 +259,8 @@
     transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
   }
   
+
+
   
   
   
